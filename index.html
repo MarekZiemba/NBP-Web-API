@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NBP Web API</title>
+    </head>
+    <body>
+        <h1>NBP Web API</h1>
+
+        <section>
+            <form id="currentGoldPriceForm">
+                <h2>Current Gold Price</h2>
+                <p id="currentGoldPriceParagraph"></p>
+                <button type="submit">Update current price</button>
+            </form>
+        </section>
+
+        <section>
+            <form id="currencyExchangeRateC">
+                <h2>Exchange rates for Table C</h2>
+                <h3 id="currentExchangeDateParagraphC"></h3>
+                <table id="currencyExchangeRatesTableC">
+                    <thead>
+                        <tr>
+                            <th>Currency</th>
+                            <th>Code</th>
+                            <th>Buy rate</th>
+                            <th>Selling rate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <button type="submit">Update bid/ask rates</button>
+            </form>
+        </section>
+
+        <section>
+            <form id="currencyExchangeRateA">
+                <h2>Average exchange rates for Table A</h2>
+                <h3 id="currentExchangeDateParagraphA"></h3>
+                <table id="currencyExchangeRatesTableA">
+                    <thead>
+                        <tr>
+                            <th>Currency</th>
+                            <th>Code</th>
+                            <th>Average rate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <button type="submit">Update average rates</button>
+            </form>
+        </section>
+
+        <section>
+            <form id="currencyExchangeRateB">
+                <h2>Average exchange rates for Table B</h2>
+                <h3 id="currentExchangeDateParagraphB"></h3>
+                <table id="currencyExchangeRatesTableB">
+                    <thead>
+                        <tr>
+                            <th>Currency</th>
+                            <th>Code</th>
+                            <th>Average rate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <button type="submit">Update average rates</button>
+            </form>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
